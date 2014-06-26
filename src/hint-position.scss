@@ -14,11 +14,12 @@
 	&:before {
 		// get the arrow out
 		margin-#{$propertyY}: -2 * $arrowBorderWidth;
+		margin-left: -1 * $arrowBorderWidth;
 	}
 
 	&:after {
 		// bring back the tooltip by some offset so that arrow doesn't stick at end
-		margin-left: -1 * $arrowOffsetX;
+		margin-left: -2 * $arrowOffsetX;
 	}
 
 	&:before, &:after {

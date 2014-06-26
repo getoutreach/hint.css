@@ -105,9 +105,10 @@
  * top tooltip
  */
 .hint--top:before {
-  margin-bottom: -12px; }
+  margin-bottom: -12px;
+  margin-left: -6px; }
 .hint--top:after {
-  margin-left: -12px; }
+  margin-left: -24px; }
 .hint--top:before, .hint--top:after {
   bottom: 100%;
   left: 50%; }
@@ -120,9 +121,10 @@
  * bottom tooltip
  */
 .hint--bottom:before {
-  margin-top: -12px; }
+  margin-top: -12px;
+  margin-left: -6px; }
 .hint--bottom:after {
-  margin-left: -12px; }
+  margin-left: -24px; }
 .hint--bottom:before, .hint--bottom:after {
   top: 100%;
   left: 50%; }
