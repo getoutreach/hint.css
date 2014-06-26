@@ -43,9 +43,9 @@
     opacity: 0;
     z-index: 1000000;
     pointer-events: none;
-    -webkit-transition: 0.3s ease;
-    -moz-transition: 0.3s ease;
-    transition: 0.3s ease;
+    -webkit-transition: 0s ease;
+    -moz-transition: 0s ease;
+    transition: 0s ease;
     -webkit-transition-delay: 0ms;
     -moz-transition-delay: 0ms;
     transition-delay: 0ms; }
@@ -53,6 +53,9 @@
     visibility: visible;
     opacity: 1; }
   .hint:hover:before, .hint:hover:after, [data-hint]:hover:before, [data-hint]:hover:after {
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    transition: 0.3s ease;
     -webkit-transition-delay: 100ms;
     -moz-transition-delay: 100ms;
     transition-delay: 100ms; }
