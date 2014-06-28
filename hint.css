@@ -1,4 +1,4 @@
-/*! Hint.css - v1.3.2 - 2014-06-26
+/*! Hint.css - v1.3.2 - 2014-06-27
 * http://kushagragour.in/lab/hint/
 * Copyright (c) 2014 Kushagra Gour; Licensed MIT */
 
@@ -297,3 +297,18 @@
   -webkit-transition: opacity 0.3s ease, visibility 0.3s ease, -webkit-transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24);
   -moz-transition: opacity 0.3s ease, visibility 0.3s ease, -moz-transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24);
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24); }
+
+/**
+ * source: hint-multiline.scss
+ *
+ * Defines tooltip that can wrap to multiple lines
+ *
+ * Classes added:
+ *  1) hint--multiline
+ *
+ */
+.hint--multiline:after {
+  min-width: 180px;
+  max-width: 180px;
+  white-space: normal;
+  text-align: left; }

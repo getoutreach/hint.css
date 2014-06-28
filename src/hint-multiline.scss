@@ -1,0 +1,19 @@
+/**
+ * source: hint-multiline.scss
+ *
+ * Defines tooltip that can wrap to multiple lines
+ *
+ * Classes added:
+ *  1) hint--multiline
+ *
+ */
+
+// Remove animation from tooltips.
+.#{$prefix}multiline {
+  &:after {
+    min-width: 180px;
+    max-width: 180px;
+    white-space: normal;
+    text-align: left;
+  }
+}
