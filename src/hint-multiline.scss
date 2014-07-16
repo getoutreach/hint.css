@@ -11,8 +11,8 @@
 // Remove animation from tooltips.
 .#{$prefix}multiline {
   &:after {
-    min-width: 180px;
-    max-width: 180px;
+    min-width: 160px;
+    max-width: 160px;
     white-space: normal;
     text-align: left;
   }

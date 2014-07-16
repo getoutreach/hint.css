@@ -1,4 +1,4 @@
-/*! Hint.css - v1.3.2 - 2014-06-27
+/*! Hint.css - v1.3.2 - 2014-07-16
 * http://kushagragour.in/lab/hint/
 * Copyright (c) 2014 Kushagra Gour; Licensed MIT */
 
@@ -308,7 +308,7 @@
  *
  */
 .hint--multiline:after {
-  min-width: 180px;
-  max-width: 180px;
+  min-width: 160px;
+  max-width: 160px;
   white-space: normal;
   text-align: left; }
