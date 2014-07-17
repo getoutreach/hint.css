@@ -34,8 +34,7 @@
 		@include vendor('transition-delay', $hideDelay);
 	}
 
-	&:hover:before, &:hover:after,
-	&:focus:before, &:focus:after {
+	&:hover:before, &:hover:after {
 		visibility: visible;
 		opacity: 1;
 	}

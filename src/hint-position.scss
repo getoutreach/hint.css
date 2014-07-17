@@ -27,7 +27,7 @@
 		left: 50%;
 	}
 
-	&:hover, &:focus {
+	&:hover {
 		@include set-margin('translateY', $transitionDirection);
 	}
 }
@@ -50,7 +50,7 @@
 		bottom: 50%;
 	}
 
-	&:hover, &:focus {
+	&:hover {
 		@include set-margin('translateX', $transitionDirection);
 	}
 }
